@@ -101,7 +101,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           mvn verify sonar:sonar \
-          -Dsonar.projectKey=Bra7anG_fixNow \
+          -Dsonar.projectKey=Bra7anG_snikproyect \
           -Dsonar.organization=Bra7anG \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=$SONAR_TOKEN \
